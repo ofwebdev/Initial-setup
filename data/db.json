@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Product title",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    },
+    "colors": ["black", "white", "blue"],
+    "sizes": ["S", "M", "L", "XL"],
+    "inventory": 50,
+    "brand": "Brand Name",
+    "featured": true,
+    "weight": 2.5,
+    "dimensions": {
+      "width": 10,
+      "height": 15,
+      "depth": 5
+    },
+    "material": "Cotton",
+    "reviews": [
+      {
+        "id": 1,
+        "username": "JohnDoe",
+        "rating": 4.5,
+        "text": "Great product!"
+      },
+      {
+        "id": 2,
+        "username": "JaneDoe",
+        "rating": 3.5,
+        "text": "Not as expected."
+      }
+    ],
+    "relatedProducts": [2, 5, 7]
+  }
+]

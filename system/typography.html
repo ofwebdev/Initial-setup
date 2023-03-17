@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <title>Typography</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+
+      body {
+        margin: 0px;
+        color: rgb(33, 43, 54);
+        line-height: 1.5;
+        font-size: 1rem;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 400;
+        background-color: rgb(255, 255, 255);
+      }
+      p {
+        margin: 0;
+      }
+
+      .typography-size-definition {
+        color: rgb(99, 115, 129);
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        letter-spacing: 0;
+      }
+
+      h1 {
+        font-size: 64px;
+        font-weight: 800;
+        line-height: 80px;
+        margin: 0 0 8px;
+      }
+
+      h2 {
+        font-size: 48px;
+        font-weight: 800;
+        margin: 0 0 8px;
+        line-height: 64px;
+      }
+
+      h3 {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 0 0 8px;
+        line-height: 48px;
+      }
+      h4 {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0 8px;
+        line-height: 34px;
+      }
+
+      h5 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 0 8px;
+        line-height: 30px;
+      }
+
+      h6 {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 8px;
+        line-height: 28px;
+      }
+
+      .subtitle-1 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        letter-spacing: 0;
+
+        margin: 0 0 8px;
+      }
+
+      .subtitle-2 {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 600;
+        letter-spacing: 0;
+
+        margin: 0 0 8px;
+      }
+
+      .body-1 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0;
+
+        margin: 0 0 8px;
+      }
+
+      .body-2 {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        letter-spacing: 0;
+
+        margin: 0 0 8px;
+      }
+
+      .caption-text {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        letter-spacing: 0;
+      }
+
+      .overline-text {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      .button-text {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      .view-typography,
+      .view-text-colors {
+        padding: 30px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-bottom: 24px;
+      }
+
+      .text-secondary {
+        color: rgb(99, 115, 129);
+      }
+      .text-disabled {
+        color: rgb(145, 158, 171);
+      }
+
+      .text-banner-bg {
+        background-color: rgb(244, 246, 248);
+        /* background-color: rgb(33, 43, 54); // dark  */
+        margin-bottom: 24px;
+      }
+
+      .text-banner {
+        padding: 64px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="text-banner-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-banner">
+              <h3>Typography</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="container">
+      <!-- Default Typography -->
+      <div class="row">
+        <div class="col-md-3">
+          <h6>Default text</h6>
+        </div>
+
+        <div class="col-md-9">
+          <div class="view-typography">
+            <h1>h1. Heading</h1>
+            <p class="typography-size-definition">
+              size: 64 / l-height: 80 / weight:800 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <h2>h2. Heading</h2>
+            <p class="typography-size-definition">
+              size: 48 / l-height: 64 / weight:800 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <h3>h3. Heading</h3>
+            <p class="typography-size-definition">
+              size: 32 / l-height: 48 / weight:700 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <h4>h4. Heading</h4>
+            <p class="typography-size-definition">
+              size: 24 / l-height: 36 / weight:700 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <h5>h5. Heading</h5>
+            <p class="typography-size-definition">
+              size: 20 / l-height: 30 / weight:700 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <h6>h6. Heading</h6>
+            <p class="typography-size-definition">
+              size: 18 / l-height: 28 / weight:700 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <p class="subtitle-1">
+              subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Quos blanditiis tenetur.
+            </p>
+            <p class="typography-size-definition">
+              size: 16 / l-height: 24 / weight:600 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <p class="subtitle-2">
+              subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Quos blanditiis tenetur.
+            </p>
+            <p class="typography-size-definition">
+              size: 14 / l-height: 22 / weight:600 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <div class="body-1">
+              body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore
+              consectetur, neque doloribus, cupiditate numquam dignissimos
+              laborum fugiat deleniti? Eum quasi quidem quibusdam.
+            </div>
+            <p class="typography-size-definition">
+              size: 16 / l-height: 24 / weight:400 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <p class="body-2">
+              body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore
+              consectetur, neque doloribus, cupiditate numquam dignissimos
+              laborum fugiat deleniti? Eum quasi quidem quibusdam.
+            </p>
+
+            <p class="typography-size-definition">
+              size: 14 / l-height: 22 / weight:400 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <div class="caption-text">caption text</div>
+            <p class="typography-size-definition">
+              size: 12 / l-height: 18 / weight:400 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <p class="overline-text">OVERLINE TEXT</p>
+            <p class="typography-size-definition">
+              size: 12 / l-height: 18 / weight:700 / letterSpacing: 0
+            </p>
+          </div>
+
+          <div class="view-typography">
+            <p class="button-text">Button</p>
+            <p class="typography-size-definition">
+              size: 14 / l-height: 24 / weight:700 / letterSpacing: 0
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Colors row -->
+      <div class="row mt-5">
+        <div class="col-md-3">
+          <h6>Colors Text</h6>
+        </div>
+        <div class="col-md-9">
+          <div class="view-text-colors">
+            <div class="subtitle-1">text primary</div>
+            <p class="body-2">
+              Cras ultricies mi eu turpis hendrerit fringilla. Fusce vel dui.
+              Pellentesque auctor neque nec urna. Sed cursus turpis vitae
+              tortor. Curabitur suscipit suscipit tellus.
+            </p>
+          </div>
+
+          <div class="view-text-colors">
+            <div class="subtitle-1 text-secondary">text secondary</div>
+            <p class="body-2 text-secondary">
+              Cras ultricies mi eu turpis hendrerit fringilla. Fusce vel dui.
+              Pellentesque auctor neque nec urna. Sed cursus turpis vitae
+              tortor. Curabitur suscipit suscipit tellus.
+            </p>
+          </div>
+
+          <div class="view-text-colors">
+            <div class="subtitle-1 text-disabled">text disabled</div>
+            <p class="body-2 text-disabled">
+              Cras ultricies mi eu turpis hendrerit fringilla. Fusce vel dui.
+              Pellentesque auctor neque nec urna. Sed cursus turpis vitae
+              tortor. Curabitur suscipit suscipit tellus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
