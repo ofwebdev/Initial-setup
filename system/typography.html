@@ -10,160 +10,14 @@
       href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./system.css" />
+
     <title>Typography</title>
-
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
-
-      body {
-        margin: 0px;
-        color: rgb(33, 43, 54);
-        line-height: 1.5;
-        font-size: 1rem;
-        font-family: "Public Sans", sans-serif;
-        font-weight: 400;
-        background-color: rgb(255, 255, 255);
-      }
-      p {
-        margin: 0;
-      }
-
-      .typography-size-definition {
-        color: rgb(99, 115, 129);
-      }
-
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        letter-spacing: 0;
-      }
-
-      h1 {
-        font-size: 64px;
-        font-weight: 800;
-        line-height: 80px;
-        margin: 0 0 8px;
-      }
-
-      h2 {
-        font-size: 48px;
-        font-weight: 800;
-        margin: 0 0 8px;
-        line-height: 64px;
-      }
-
-      h3 {
-        font-size: 32px;
-        font-weight: 700;
-        margin: 0 0 8px;
-        line-height: 48px;
-      }
-      h4 {
-        font-size: 24px;
-        font-weight: 700;
-        margin: 0 0 8px;
-        line-height: 34px;
-      }
-
-      h5 {
-        font-size: 20px;
-        font-weight: 700;
-        margin: 0 0 8px;
-        line-height: 30px;
-      }
-
-      h6 {
-        font-size: 18px;
-        font-weight: 700;
-        margin: 0 0 8px;
-        line-height: 28px;
-      }
-
-      .subtitle-1 {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 600;
-        letter-spacing: 0;
-
-        margin: 0 0 8px;
-      }
-
-      .subtitle-2 {
-        font-size: 14px;
-        line-height: 22px;
-        font-weight: 600;
-        letter-spacing: 0;
-
-        margin: 0 0 8px;
-      }
-
-      .body-1 {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-        letter-spacing: 0;
-
-        margin: 0 0 8px;
-      }
-
-      .body-2 {
-        font-size: 14px;
-        line-height: 22px;
-        font-weight: 400;
-        letter-spacing: 0;
-
-        margin: 0 0 8px;
-      }
-
-      .caption-text {
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: 400;
-        letter-spacing: 0;
-      }
-
-      .overline-text {
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: 700;
-        letter-spacing: 0;
-      }
-
-      .button-text {
-        font-size: 14px;
-        line-height: 24px;
-        font-weight: 700;
-        letter-spacing: 0;
-      }
-
-      .view-typography,
-      .view-text-colors {
-        padding: 30px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        margin-bottom: 24px;
-      }
-
-      .text-secondary {
-        color: rgb(99, 115, 129);
-      }
-      .text-disabled {
-        color: rgb(145, 158, 171);
-      }
-
-      .text-banner-bg {
-        background-color: rgb(244, 246, 248);
-        /* background-color: rgb(33, 43, 54); // dark  */
-        margin-bottom: 24px;
-      }
-
-      .text-banner {
-        padding: 64px 0;
-      }
-    </style>
   </head>
   <body>
     <section class="text-banner-bg">
@@ -172,6 +26,7 @@
           <div class="col-md-12">
             <div class="text-banner">
               <h3>Typography</h3>
+              <hr class="thin-border" />
             </div>
           </div>
         </div>
@@ -328,8 +183,99 @@
               tortor. Curabitur suscipit suscipit tellus.
             </p>
           </div>
+
+          <div class="view-text-colors">
+            <div class="subtitle-1 primary-text-color">primary</div>
+            <p class="body-2 primary-text-color">
+              Cras ultricies mi eu turpis hendrerit fringilla. Fusce vel dui.
+              Pellentesque auctor neque nec urna. Sed cursus turpis vitae
+              tortor. Curabitur suscipit suscipit tellus.
+            </p>
+          </div>
+
+          <div class="view-text-colors">
+            <div class="subtitle-1 secondary-text-color">secondary</div>
+            <p class="body-2 secondary-text-color">
+              Cras ultricies mi eu turpis hendrerit fringilla. Fusce vel dui.
+              Pellentesque auctor neque nec urna. Sed cursus turpis vitae
+              tortor. Curabitur suscipit suscipit tellus.
+            </p>
+          </div>
+
+          <div class="view-text-colors">
+            <div class="subtitle-1 info-text-color">info</div>
+            <p class="body-2 info-text-color">
+              Cras ultricies mi eu turpis hendrerit fringilla. Fusce vel dui.
+              Pellentesque auctor neque nec urna. Sed cursus turpis vitae
+              tortor. Curabitur suscipit suscipit tellus.
+            </p>
+          </div>
+
+          <div class="view-text-colors">
+            <div class="subtitle-1 warning-text-color">warning</div>
+            <p class="body-2 warning-text-color">
+              Cras ultricies mi eu turpis hendrerit fringilla. Fusce vel dui.
+              Pellentesque auctor neque nec urna. Sed cursus turpis vitae
+              tortor. Curabitur suscipit suscipit tellus.
+            </p>
+          </div>
+
+          <div class="view-text-colors">
+            <div class="subtitle-1 error-text-color">error</div>
+            <p class="body-2 error-text-color">
+              Cras ultricies mi eu turpis hendrerit fringilla. Fusce vel dui.
+              Pellentesque auctor neque nec urna. Sed cursus turpis vitae
+              tortor. Curabitur suscipit suscipit tellus.
+            </p>
+          </div>
         </div>
       </div>
     </main>
+
+    <div class="setting-controller-icon">
+      <i class="bi bi-sliders"></i>
+    </div>
+
+    <div class="setting-ui-overlay d-none"></div>
+
+    <div class="setting-controller-sidebar d-none">
+      <div class="sitebar-header d-flex justify-content-between p-3">
+        <div class="setting-icon-with-text d-flex align-items-center">
+          <i class="bi bi-gear"></i>
+          <p class="ms-2">Setting</p>
+        </div>
+
+        <div class="d-flex" style="gap: 16px">
+          <div class="reload-setting">
+            <i class="bi bi-arrow-clockwise"></i>
+          </div>
+          <div class="close-setting">
+            <i class="bi bi-x-lg"></i>
+          </div>
+        </div>
+      </div>
+
+      <hr class="thin-border" />
+
+      <div class="setting-body p-3">
+        <div class="mood-controll">
+          <div class="mood-text">Mode</div>
+          <div
+            class="d-flex align-items-center justify-content-center mt-2 mb-3"
+            style="gap: 8px"
+          >
+            <div class="sun">
+              <i class="bi bi-sun-fill primary-bg-color"></i>
+            </div>
+
+            <div class="moon">
+              <i class="bi bi-cloud-moon-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./system.js"></script>
   </body>
 </html>
